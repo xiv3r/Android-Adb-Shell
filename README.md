@@ -8,47 +8,50 @@
 
 
 
-  <p> <img align="center" width="500" height="500" src="https://github.com/xiv3r/Android-Adb-Shell/blob/main/file/IMG_20231114_092952.jpg"
+  <p>
+    <img align="center" width="500" height="500" src="https://github.com/xiv3r/Android-Adb-Shell/blob/main/file/IMG_20231114_092952.jpg"
         </p>
-
+<br></br>
   
-<p> <img align="center" width="500" height="500" src="https://github.com/xiv3r/Android-Adb-Shell/blob/main/file/IMG_20231114_093015.jpg"
+<p> 
+  <img align="center" width="500" height="500" src="https://github.com/xiv3r/Android-Adb-Shell/blob/main/file/IMG_20231114_093015.jpg"
     
   </p>
 
-<br>
+<br></br>
 
 <p>
   <img align="center" width="500" height="500" src="https://github.com/xiv3r/Android-Adb-Shell/blob/main/file/IMG_20231114_093036.jpg" </p>
     
-<br>
+<br></br>
 
 <p>
   <img align="center" width="500" height="500" src="https://github.com/xiv3r/Android-Adb-Shell/blob/main/file/Screenshot_2023_1114_092658.png" </p>
     
-<br>
+<br></br>
 
 <p>
   <img align="center" width="500" height="500" src="https://github.com/xiv3r/Android-Adb-Shell/blob/main/file/Screenshot_2023_1114_092714.png" </p>
     
-<br>
+<br></br>
 
 <p>
   <img align="center" width="500" height="500" src="https://github.com/xiv3r/Android-Adb-Shell/blob/main/file/IMG_20231114_093111.jpg" </p>
     
-<br>
+
+<br></br>
 
 <p>
   <img align="center" width="500" height="500" src="https://github.com/xiv3r/Android-Adb-Shell/blob/main/file/Screenshot_2023_1114_093227.png" </p>
     
-<br>
+<br></br>
 
 <p>
   <img align="center" width="500" height="500" src="https://github.com/xiv3r/Android-Adb-Shell/blob/main/file/IMG_20231114_100847.jpg" </p>
     
-<br>
+<br></br>
 
-- Open Ashell Terminal
+## Open Ashell Terminal
 
 <p>
   <img align="center" width="500" height="500" src="https://github.com/xiv3r/Android-Adb-Shell/blob/main/file/IMG_20231114_093309.jpg" </p>
@@ -95,7 +98,7 @@ adb shell settings put global default cached_apps_freezer enabled
 adb shell settings put system default mcf_continuity 0
 ```
 
-#This commands will disable the phantom process killer:
+# This commands will disable the phantom process killer:
 
 ```
 adb shell /system/bin/device_config set_sync_disabled_for_tests persistent
