@@ -11,23 +11,49 @@
 
 ## Install
 
-![1](https://github.com/xiv3r/Android-Adb-Shell/blob/main/file/IMG_20231114_092952.jpg)
+
+
+  <p> <img align="center" width="500" height="500" src="https://github.com/xiv3r/Android-Adb-Shell/blob/main/file/IMG_20231114_092952.jpg"
+        </p>
+
+  
+<p> <img align="center" width="500" height="500" src="https://github.com/xiv3r/Android-Adb-Shell/blob/main/file/IMG_20231114_093015.jpg"
+    
+  </p>
+
 <br>
-![2](https://github.com/xiv3r/Android-Adb-Shell/blob/main/file/IMG_20231114_093015.jpg)
+
+<p>
+  <img align="center" width="500" height="500" src="https://github.com/xiv3r/Android-Adb-Shell/blob/main/file/IMG_20231114_093036.jpg" </p>
+    
 <br>
-![3](https://github.com/xiv3r/Android-Adb-Shell/blob/main/file/IMG_20231114_093036.jpg)
+
+<p>
+  <img align="center" width="500" height="500" src="https://github.com/xiv3r/Android-Adb-Shell/blob/main/file/Screenshot_2023_1114_092658.png" </p>
+    
 <br>
-![4](https://github.com/xiv3r/Android-Adb-Shell/blob/main/file/Screenshot_2023_1114_092658.png)
+
+<p>
+  <img align="center" width="500" height="500" src="https://github.com/xiv3r/Android-Adb-Shell/blob/main/file/Screenshot_2023_1114_092714.png" </p>
+    
 <br>
-![5](https://github.com/xiv3r/Android-Adb-Shell/blob/main/file/Screenshot_2023_1114_092714.png)
+
+<p>
+  <img align="center" width="500" height="500" src="https://github.com/xiv3r/Android-Adb-Shell/blob/main/file/IMG_20231114_093111.jpg" </p>
+    
 <br>
-![6](https://github.com/xiv3r/Android-Adb-Shell/blob/main/file/IMG_20231114_093111.jpg)
+
+<p>
+  <img align="center" width="500" height="500" src="https://github.com/xiv3r/Android-Adb-Shell/blob/main/file/Screenshot_2023_1114_093227.png" </p>
+    
 <br>
-![7](https://github.com/xiv3r/Android-Adb-Shell/blob/main/file/Screenshot_2023_1114_093227.png)
-<br>
-![8](https://github.com/xiv3r/Android-Adb-Shell/blob/main/file/IMG_20231114_100847.jpg)
+
+<p>
+  <img align="center" width="500" height="500" src="https://github.com/xiv3r/Android-Adb-Shell/blob/main/file/IMG_20231114_100847.jpg" </p>
+    
 <br>
 
 - Open Ashell Terminal
 
-![9](https://github.com/xiv3r/Android-Adb-Shell/blob/main/file/IMG_20231114_093309.jpg)
+<p>
+  <img align="center" width="500" height="500" src="https://github.com/xiv3r/Android-Adb-Shell/blob/main/file/IMG_20231114_093309.jpg" </p>
