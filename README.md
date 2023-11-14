@@ -54,32 +54,43 @@
   <img align="center" width="500" height="500" src="https://github.com/xiv3r/Android-Adb-Shell/blob/main/file/IMG_20231114_093309.jpg" </p>
 
 # Android Optimization Tweaks
+
 ```
 adb shell cmd power set-fixed-performance-mode-enabled true
 adb shell settings put global cached_apps_freezer 1 default 
 adb shell settings put global ram_expand_size 0 default 
-adb shell settings put global zram 0 default 
-adb shell settings put global default windows_antimation_scale 0.25 
-adb shell settings put global default transition_animation_scale 0.25 
-adb shell settings put global default animator_duration_scale 0.25 
+adb shell settings put global zram 1 default 
+adb shell settings put global default windows_antimation_scale 0.0
+adb shell settings put global default transition_animation_scale 0.0
+adb shell settings put global default animator_duration_scale 0.0
 adb shell settings put system peak_refresh_rate 120.0 
 adb shell settings put system min_refresh_rate 120.0 
-adb shell settings put global private_dns_specifier dns.adguard-dns.com 
-adb shell settings put system multicore_packet_scheduler 1 
-adb shell settings put secure refresh_rate_mode 2
+adb shell settings put global default private_dns_specifier dns.adguard-dns.com 
+adb shell settings put system default multicore_packet_scheduler 1 
+adb shell settings put secure default refresh_rate_mode 2
 adb shell set max refresh rate 120 global default 
 adb shell set min refresh rate 120 global default 
-adb shell pm trim-caches 128G adb shell settings put system tube_amp_effect 1 
-adb shell settings put system k2hd_effect 1 
-adb shell settings put system sound_effects_enabled 0 
-adb shell settings put global apply_ramping_ringer 1 
-adb shell settings put secure show_notification_snooze 1 
-adb shell settings put system rakuten_denwa 0 
-adb shell settings put system send_security_reports 0 
-adb shell settings put global sem_enhanced_cpu_responsiveness 1 
-adb shell settings put global restricted_device_performance 0,0 
-adb shell settings put global online_manual_url 0 
-adb shell settings put global adaptive_battery_management_enabled 1 
-adb shell settings put system intelligent_sleep_mode 1 
-adb shell settings put secure adaptive_sleep 1
+adb shell pm trim-caches 128G
+adb shell settings put system default tube_amp_effect 1 
+adb shell settings put system default k2hd_effect 1 
+adb shell settings put system default sound_effects_enabled 0 
+adb shell settings put global default apply_ramping_ringer 1 
+adb shell settings put secure default show_notification_snooze 1 
+adb shell settings put system default rakuten_denwa 0 
+adb shell settings put system default send_security_reports 0 
+adb shell settings put global default sem_enhanced_cpu_responsiveness 1 
+adb shell settings put global default restricted_device_performance 0,0 
+adb shell settings put global default online_manual_url 0 
+adb shell settings put global default adaptive_battery_management_enabled 1 
+adb shell settings put system default intelligent_sleep_mode 1 
+adb shell settings put secure default adaptive_sleep 1
+adb shell settings put secure default game_auto_tempature 0
+adb shell settings put system default rakuten_denwa 0
+adb shell settings put system default send_security_reports 0
+adb shell settings put global default sem_enhanced_cpu_responsiveness 1
+adb shell settings put global default enhanced_processing 2
+adb shell settings put system default multicore_packet_scheduler 1
+adb shell settings put global default app_standby_enabled 1
+adb shell settings put global default cached_apps_freezer enabled
+adb shell settings put system default mcf_continuity 0
 ```
