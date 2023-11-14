@@ -1,2 +1,9 @@
 # Android-Adb-Shell
-ADB Shell through wireless debugging
+
+
+
+### Download
+  
+   [Ashell](https://github.com/xiv3r/Android-Adb-Shell/raw/main/ashell-v8.apk)
+ 
+   [Shizuku](https://github.com/xiv3r/Android-Adb-Shell/raw/main/shizuku-v13.apk)
