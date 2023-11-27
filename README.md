@@ -59,6 +59,11 @@
 # Android Optimization Tweaks
 
 ```
+adb shell setprop debug.enable-vr-mode 1
+adb shell setprop debug.force-opengl 1
+adb shell setprop debug.hwc.force_gpu_vsync 1
+adb shell setprop debug.performance.profile 1
+adb shell setprop debug.refresh_rate.min_fps (0,60,90,120)
 adb shell cmd power set-fixed-performance-mode-enabled true
 adb shell settings put global window_animation_scale 0
 adb shell settings put global transition_animation_scale 0
