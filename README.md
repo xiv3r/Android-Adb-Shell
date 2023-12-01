@@ -201,6 +201,64 @@ Clear All Apps Cache (Enter multiple times)
 - adb shell pm trim-caches 999999999999999999 (Enter multiple times for it to be effective)
 Force Stop Apps 
 - adb shell am force-stop com.package.name (Create a .bat file containing all packages)
+setprop debug.egl.force_msaa false
+setprop debug.egl.force_fxaa false
+setprop debug.egl.force_taa false
+setprop debug.egl.force_ssaa false
+setprop debug.egl.force_smaa false 
+setprop debug.qsg_renderer 1
+setprop debug.hwui.fps_divisor -1
+setprop debug.sf.showfps 0
+setprop debug.redroid.fps120
+setprop debug.cpurend.vsync false
+setprop debug.gpurend.vsync false
+setprop debug.hal_client_domain hal_perf
+setprop debug.cpuprio 8
+setprop debug.gpuprio 8
+setprop debug.ioprio 8
+setprop debug.hwui.target_power_time_percent 100
+setprop debug.hwui.target_cpu_time_percent 100
+setprop debug.hwui.target_gpu_time_percent100 setprop debug.hwui.use_hint_manager true
+setprop debug.renderthread.reduceopstasksplitting true
+setprop debug.renderer.process_compound true
+setprop debug.choreographer.skip_warning 1440000
+setprop debug.hwui.disable_draw_defer true
+setprop debug.composition.type mdp
+setprop debug.composition.type2 gpu
+setprop debug.disable_sched_boost true 
+setprop debug.performance.accoustic.force true
+setprop debug.javafx.animation.fullspeed true
+setprop debug.javafx.animation.framerate 120
+setprop debug.rs.default-CPU-driver 1
+setprop debug.rs.default-CPU-buffer 65536
+setprop debug.gr.swapinterval0
+setprop debug.dev.ssrm.turbo true
+setprop debug.sf.disable_client_composition_cache 1
+setprop debug.hwc.disabletonemapping true
+setprop debug.hwui.disabledither true
+setprop debug.rs.precision rs_fp_full
+setprop debug.sf.enable_hgl 1
+setprop debug.perfhudes 1
+setprop debug.hw3d.force true
+setprop debug.hw2d.force true
+setprop debug.disable.hwacc 0
+setprop debug.enabletr true
+setprop debug.qctwa.preservebuf 1
+setprop debug.MB.running72
+setprop debug.MB.inner.running 24
+setprop debug.app.performance_restricted false
+setprop debug.performance.force true
+setprop debug.disable.computedata true
+setprop debug.rs.max-threads 8
+setprop debug.rs.min-threads 8
+setprop debug.performance.tuning 1
+setprop debug.vulkan.layers VK_LAYER_APPS_gfxstream
+setprop debug.sf.enable_advanced_sf_phase_offset 1
+setprop debug.sf.set_idle_timer_ms 8500
+setprop debug.sf.frame_rate_multiple_threshold 120
+setprop debug.sf.support_kernel_idle_timer_enabled true
+settings put system pointer_speed 1
+settings put global pointer_speed 1
 ```
 
 # This commands will disable the phantom process killer:
